@@ -1,3 +1,4 @@
+
 import java.util.LinkedHashMap;
 
 class CharacterFrequency {
@@ -16,9 +17,9 @@ class CharacterFrequency {
         // Variants:
         // using HashMap
         // without HashMap
-        // using Java Streams
-
+        // using Java Streamss
         String input = "automation";
+        v1(input);
         v2(input);
 
     }
@@ -66,9 +67,9 @@ class CharacterFrequency {
 
     }
 
-    static void v3(String s3) {
-        // using Java Streams
-        // Not needed for now
+    // static void v3(String s3) {
+    //     // using Java Streams
+    //     // Not needed for now
 
-    }
+    // }
 }
