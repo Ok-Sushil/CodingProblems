@@ -13,7 +13,7 @@ class FindFirstNonRepeatedCharacter {
 
         String s1 = "automation";
 
-        // v1(s1);
+        v1(s1);
         v2(s1);
     }
 
