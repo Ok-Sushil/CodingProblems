@@ -1,3 +1,4 @@
+// Move vowels → consonants → special characters	🔴 4/5	Explicit Deloitte 2026 report. (LinkedIn)
 
 class Q6RearrangementOfVowelsConsonantsAndSpecialCharacters {
 
