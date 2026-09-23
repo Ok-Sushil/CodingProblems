@@ -21,6 +21,37 @@ class Q6RearrangementOfVowelsConsonantsAndSpecialCharacters {
 
         }
 
+        for (int i = 0; i < s1.length(); i++) {
+
+            char c = s1.charAt(i);
+
+            if (Character.isLetter(c)
+                    && c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u') {
+
+                out.append(c);
+            }
+        }
+
+        // Digits
+        for (int i = 0; i < s1.length(); i++) {
+
+            char c = s1.charAt(i);
+
+            if (Character.isDigit(c)) {
+                out.append(c);
+            }
+        }
+
+        // Special characters
+        for (int i = 0; i < s1.length(); i++) {
+
+            char c = s1.charAt(i);
+
+            if (!Character.isLetterOrDigit(c)) {
+                out.append(c);
+            }
+        }
+
         System.out.print(out);
 
     }
